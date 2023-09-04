@@ -3,7 +3,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 const SpotifyWebApi = require('spotify-web-api-node')
 const clientId = '9a18f40f9c7a4e659e079864b76f5838';
-const redirectUri = 'http://localhost:8080';
+const redirectUri = 'https://kurniawan-saputro-vue-pk.vercel.app/';
 const clientSecret = '97330b1a5534442b9ff61809c81183b4'
 
 const app = express();
